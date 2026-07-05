@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ＳＡＳＳＹ ＤＩＶＹＡ</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f4f4f4;
+}
+header{
+    background:#d32f2f;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+.products{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    padding:20px;
+}
+.card{
+    background:white;
+    width:250px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.2);
+    overflow:hidden;
+}
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+.card h3{
+    margin:10px;
+}
+.price{
+    color:red;
+    font-size:20px;
+    font-weight:bold;
+    margin:10px;
+}
+button{
+    background:#28a745;
+    color:white;
+    border:none;
+    padding:10px;
+    width:90%;
+    margin:10px;
+    border-radius:5px;
+    cursor:pointer;
+}
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>𝕊𝔸𝕊𝕊𝕐 𝔻𝕀𝕍𝕐𝔸</h1>
+<p>Best Products at Best Prices</p>
+</header>
+
+<section class="products">
+
+<div class="card">
+<img src="cake.jpg" alt="Cake">
+<h3>Chocolate Cake</h3>
+<p class="price">₹550</p>
+<button>Order Now</button>
+</div>
+
+<div class="card">
+<img src="pizza.jpg" alt="Pizza">
+<h3>Pizza</h3>
+<p class="price">₹199</p>
+<button>Order Now</button>
+</div>
+
+<div class="card">
+<img src="cookies.jpg" alt="Cookies">
+<h3>Cookies</h3>
+<p class="price">₹120</p>
+<button>Order Now</button>
+</div>
+
+</section>
+
+<footer>
+<p>📞 Phone: +91 9876543210</p>
+<p>📍 Your Shop Address</p>
+</footer>
+
+</body>
+</html>  
